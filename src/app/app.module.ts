@@ -10,6 +10,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TimelineComponent } from './timeline/timeline.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { TimelineComponent } from './timeline/timeline.component';
     AboutComponent,
     SkillsComponent,
     TimelineComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

@@ -18,7 +18,7 @@
     background: #1a1a1a;
     text-transform: capitalize;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     color: #abcd;
     background-clip: text;
     -webkit-background-clip: text;
@@ -101,4 +101,10 @@
 
 .project-card:hover .project-content{
     opacity: 1;
+}
+.parallax-one{
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: centerS;
 }
